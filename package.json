@@ -1,0 +1,16 @@
+{
+  "name": "phantomjs-stream",
+  "version": "0.0.0",
+  "description": "Simple streaming wrapper around phantomjs(1)",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": "juliangruber/phantomjs-stream",
+  "devDependencies": {
+    "tape": "^3.5.0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "stream-read": "^1.1.2"
+  }
+}
