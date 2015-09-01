@@ -37,7 +37,7 @@ Kill the child process.
 Emitted when the underlying `phantomjs` exits. There can be multiple reasons for this:
 
 - `phantom#kill()` was called
-- `phantom.exit()` was sent as a scribt
+- `phantom.exit()` was sent as a script
 - there was a fatal error
 
 ## License
