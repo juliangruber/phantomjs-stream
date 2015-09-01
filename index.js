@@ -48,6 +48,7 @@ Phantom.prototype._onfinish = function(){
     self.ps = spawn('phantomjs', [file]);
     self.ps.stdout.pipe(self.buf);
     self.ps.stderr.pipe(self.buf);
+    self.ps.on('exit', self.emit.bind(self, 'exit'));
   });
 };
 

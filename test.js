@@ -12,3 +12,14 @@ test('execute', function(t){
 
   browser.end('console.log(window.location)');
 });
+
+test('exit event', function(t){
+  var browser = phantom();
+
+  browser.on('exit', function(code){
+    t.equal(code, 0);
+    t.end();
+  });
+
+  browser.end('phantom.exit()');
+});

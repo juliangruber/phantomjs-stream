@@ -32,6 +32,14 @@ Create a duplex stream around a newly spawned `phantomjs` which forwards written
 
 Kill the child process.
 
+### phantom#on('exit', fn)
+
+Emitted when the underlying `phantomjs` exits. There can be multiple reasons for this:
+
+- `phantom#kill()` was called
+- `phantom.exit()` was sent as a scribt
+- there was a fatal error
+
 ## License
 
   MIT
