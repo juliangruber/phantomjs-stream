@@ -3,6 +3,8 @@
 
   Simple streaming wrapper around phantomjs(1).
 
+  [![build status](https://secure.travis-ci.org/juliangruber/phantomjs-stream.svg)](http://travis-ci.org/juliangruber/phantomjs-stream)
+
 ## Example
 
 ```js
