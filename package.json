@@ -8,7 +8,7 @@
   "repository": "juliangruber/phantomjs-stream",
   "devDependencies": {
     "concat-stream": "^1.5.0",
-    "tape": "4.5.0"
+    "tape": "4.5.1"
   },
   "license": "MIT",
   "dependencies": {
